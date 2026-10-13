@@ -57,7 +57,10 @@ int agregarAlumno(std::string nombres[],
                   std::string nombre,
                   double calificacionEspanol,
                   double calificacionMatematicas,
-                  double calificacionDisenoProgramas);
+                  double calificacionDisenoProgramas){
+
+
+                }
 
 // Imprime la lista numerada de alumnos con sus tres calificaciones.
 //
