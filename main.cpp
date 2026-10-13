@@ -2,6 +2,29 @@
         
 
 
+#include <iostream>
+#include <string>
+#include "utilerias.h"
+
+#include "ReporteAprovados.h"
+
+void Saludar(std::string nombre)
+{
+    std::cout << "Hola estudiante, " << nombre << std::endl;
+}
+
+void Calificaciones(double &Matematicas, double &Espanol, double &DiseniodeProgramas)
+{
+    std::cout << "Calificacion de Matematicas" << std::endl;
+    Matematicas = leerDecimal("Ingresa la calificacion de Matematicas: ");
+    std::cout << "Calificacion de Espanol" << std::endl;
+    Espanol = leerDecimal("Ingresa la calificacion de Espanol: ");
+    std::cout << "Calificacion de Disenio de Programas" << std::endl;
+    DiseniodeProgramas = leerDecimal("Ingresa la calificacion de Disenio de Programas: ");
+}
+
+
+
 int main()
 {
     double Matematicas, Espanol, DiseniodeProgramas;
@@ -18,7 +41,7 @@ int main()
     std::cin >> estudiante2;
     std::cout << "Nombre del estudiante 3: ";
     std::cin >> estudiante3;
-    std::cout << "Nom   bre del estudiante 4: ";
+    std::cout << "Nombre del estudiante 4: ";
     std::cin >> estudiante4;
     std::cout << "Nombre del estudiante 5: ";
     std::cin >> estudiante5;
