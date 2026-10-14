@@ -1,11 +1,9 @@
 
-        
-
-
+    
 #include <iostream>
 #include <string>
 #include "utilerias.h"
-
+#include "menu.h"
 #include "ReporteAprovados.h"
 
 void Saludar(std::string nombre)
@@ -71,6 +69,9 @@ int main()
     Saludar(estudiante6);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+
+    capturaAlumnos();
+    mostrarMenu();
 
     return 0;
 }

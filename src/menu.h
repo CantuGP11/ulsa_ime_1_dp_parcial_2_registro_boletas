@@ -27,6 +27,8 @@ void eligeOpcion() {
             case 1:
             capturaAlumnos();
             break;
+            case 2:
+            std::cout
             case 7:
             break;
             default:
