@@ -23,14 +23,39 @@ void eligeOpcion() {
 
         switch(opcion){
             case 1:
+
        std::cout << "\nLISTA DE ALUMNOS\n";
        for (int i = 0; i < MAX_ALUMNOS; i++) {
        std::cout << alumnos[i] << std::endl;
         }
             break;
             case 2:
+      
 
-            case 7:
+            break;
+            case 3;
+
+            break;
+            case 4:
+        
+        for (int i = 0; i < MAX_ALUMNOS; i++)
+        {
+        std::cout << "\nAlumno: " << alumnos[i] << std::endl;
+        std::cout << "Matematicas: "
+         << Matematicas[i] << std::endl;
+        std::cout << "Espanol: "
+        << Espanol[i] << std::endl;
+        std::cout << "Disenio de Programas: "
+        << DiseniodeProgramas[i] << std::endl;
+
+            break;
+            case 5:
+
+
+            break;
+            case 6:
+
+
             break;
             default:
                     std::cout << "Opcion invalida\n";
