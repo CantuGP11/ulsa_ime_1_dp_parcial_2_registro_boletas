@@ -15,8 +15,17 @@
 
 7. PEDIR el nombre del sexto estudiante y guardarlo en estudiante 6
 
-8. MOSTRAR "Hola estudiante, " y el nombre del estudiante
+8. MOSTRAR "Hola estudiante, " y el nombre del estudiante1
 
-9. PEDIR la calificación de matemáticas y guardarla en Matemáticas
+9. PEDIR la calificación de matemáticas y guardarla en Matematicas
 
-10.
+10. PEDIR la calificación de español y guardarla en Espanol
+
+11. PEDIR la calificación de diseño de programas y guardarla en Diseno de Programas
+
+12. EVALUAR las calificaciones de estudiante1 para determinar si aprobó o reprobó
+
+13. REPETIR los pasos del 1 al 12 con los siguientes estudiantes, reemplazando el nombre y las calificaciones por las del estudiante correspondiente
+
+14. FINALIZAR el programa
+´´´
