@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include "utilerias.h"
+#include "promedios.h"
 
 #include "ReporteAprovados.h"
 
