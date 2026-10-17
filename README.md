@@ -6,11 +6,11 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Captura |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [ 26082] | [Marian Reynoso] | [marianreynoso-boop] | Captura |
+| 2 | [26084] | [Enrique Talamas] | [EnriquTalamas] | [Inserta aquí tu respuesta] |
+| 3 | [26083] | [Luis Enrique Ruvalcaba ] | [LuisRuvalcaba18] | [Inserta aquí tu respuesta] |
+| 4 | [26160] | [Luis Cortes] | [luiscortesg08] | [Inserta aquí tu respuesta] |
+| 5 | [26078] | [Gilberto Cantú] | [CantuGP11] | [Inserta aquí tu respuesta] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
@@ -33,7 +33,7 @@ g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
 
 Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por ejemplo: qué pasa cuando hay un empate, cómo se busca un nombre, con cuántos decimales se imprime.
 
-[Inserta aquí tu respuesta]
+[]
 
 ## 5. Datos del escenario
 
@@ -41,12 +41,12 @@ Los 6 alumnos que capturan en el escenario obligatorio.
 
 | # | Nombre | Español | Matemáticas | Diseño de Programas |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [Gilberto Cantú] | [100] | [100] | [80] |
+| 2 | [Enrique Talamas] | [74] | [90] | [80] |
+| 3 | [Enrique Ruvalcaba] | [60] | [75] | [80] |
+| 4 | [Maximiliano Muños] | [50] | [70] | [80] |
+| 5 | [Oliver Lopez] | [90] | [88] | [80] |
+| 6 | [Matias Borrego] | [85] | [93] | [80] |
 
 ## 6. Cálculo a mano
 

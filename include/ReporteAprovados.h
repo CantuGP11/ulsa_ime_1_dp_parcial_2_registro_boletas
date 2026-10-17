@@ -1,6 +1,6 @@
 #include <iostream>
 
-void Aprobo_Reprobo(double Matematicas, double Espanol, double Disenio)
+void Aprobo_Reprobo(double Matematicas,  double Espanol, double Disenio)
 {
     if (Matematicas >= 70)
     {

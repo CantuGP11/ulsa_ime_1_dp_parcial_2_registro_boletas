@@ -1,12 +1,11 @@
 
-        
-
-
+    
 #include <iostream>
 #include <string>
 #include "utilerias.h"
 #include "promedios.h"
 
+#include "menu.h"
 #include "ReporteAprovados.h"
 
 void Saludar(std::string nombre)
@@ -28,50 +27,50 @@ void Calificaciones(double &Matematicas, double &Espanol, double &DiseniodeProgr
 
 int main()
 {
-    double Matematicas, Espanol, DiseniodeProgramas;
+     std::string alumnos[MAX_ALUMNOS];
+    const int MAX_ALUMNOS = 6;
+    double Matematicas[MAX_ALUMNOS] , Espanol[MAX_ALUMNOS], DiseniodeProgramas[MAX_ALUMNOS];
+   
+    std::string alumnos[MAX_ALUMNOS];
 
-    std::string nombre;
+    std::cout << "Bienvenido al Simulador de Registro de Calificaciones\n\n";
 
-    std::cout << "Bienvenido al Simulador de Registro de calificaciones" << std::endl;
+    for (int i = 0; i < MAX_ALUMNOS; i++) {
+        std::cout << "Nombre del estudiante " << i + 1 << ": ";
+        std::cin >> alumnos[i];
+    }
+    for (int i = 0; i < MAX_ALUMNOS; i++)
+    { std::cout <<"\nAlumno:" << alumnos[i] << std::endl;
+    Calificaciones( Matematicas[i], Espanol[i], DiseniodeProgramas[i]  );
+    
+    }
 
-    std::string estudiante1, estudiante2, estudiante3, estudiante4, estudiante5, estudiante6;
-
-    std::cout << "Nombre del estudiante 1: ";
-    std::cin >> estudiante1;
-    std::cout << "Nombre del estudiante 2: ";
-    std::cin >> estudiante2;
-    std::cout << "Nombre del estudiante 3: ";
-    std::cin >> estudiante3;
-    std::cout << "Nombre del estudiante 4: ";
-    std::cin >> estudiante4;
-    std::cout << "Nombre del estudiante 5: ";
-    std::cin >> estudiante5;
-    std::cout << "Nombre del estudiante 6: ";
-    std::cin >> estudiante6;
-
-    Saludar(estudiante1);
+    Saludar(alumnos[0]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
     std::cout << std::endl;
-    Saludar(estudiante2);
+    Saludar(alumnos[1]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
     std::cout << std::endl;
-    Saludar(estudiante3);
+    Saludar(alumnos[2]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
     std::cout << std::endl;
-    Saludar(estudiante4);
+    Saludar(alumnos[3]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
     std::cout << std::endl;
-    Saludar(estudiante5);
+    Saludar(alumnos[4]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
     std::cout << std::endl;
-    Saludar(estudiante6);
+    Saludar(alumnos[5]);
     Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
     Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+
+    capturaAlumnos();
+    mostrarMenu();
 
     return 0;
 }
