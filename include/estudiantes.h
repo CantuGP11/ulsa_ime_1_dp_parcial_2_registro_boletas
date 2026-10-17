@@ -1,0 +1,11 @@
+#include <iostream>
+// estudiantes.h
+
+#ifndef ESTUDIANTES_H // Es para que el programa no ejecute 2 veces estudiantes.h y marque error. Pregunta si ya entro.
+#define ESTUDIANTES_H // esta marca que ya entro.
+
+#include <string>
+
+void capturaAlumnos(std::string alumnos[], int MAX_ALUMNOS);
+
+#endif // termina esta condicion #ifndef ESTUDIANTES_H
