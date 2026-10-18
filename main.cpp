@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 #include "utilerias.h"
+#include "promedios.h"
+
 #include "menu.h"
 #include "ReporteAprovados.h"
 
