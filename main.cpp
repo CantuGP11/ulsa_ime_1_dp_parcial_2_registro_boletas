@@ -25,18 +25,19 @@ void Calificaciones(double &Matematicas, double &Espanol, double &DiseniodeProgr
 
 int main()
 {
-     std::string alumnos[MAX_ALUMNOS];
     const int MAX_ALUMNOS = 6;
+     std::string alumnos[MAX_ALUMNOS];
+    
     double Matematicas[MAX_ALUMNOS] , Espanol[MAX_ALUMNOS], DiseniodeProgramas[MAX_ALUMNOS];
-   
-    std::string alumnos[MAX_ALUMNOS];
 
     std::cout << "Bienvenido al Simulador de Registro de Calificaciones\n\n";
 
     for (int i = 0; i < MAX_ALUMNOS; i++) {
         std::cout << "Nombre del estudiante " << i + 1 << ": ";
         std::cin >> alumnos[i];
+    
     }
+
     for (int i = 0; i < MAX_ALUMNOS; i++)
     { std::cout <<"\nAlumno:" << alumnos[i] << std::endl;
     Calificaciones( Matematicas[i], Espanol[i], DiseniodeProgramas[i]  );
@@ -44,31 +45,31 @@ int main()
     }
 
     Saludar(alumnos[0]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+    Calificaciones(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
+    Aprobo_Reprobo(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
     std::cout << std::endl;
     Saludar(alumnos[1]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+    Calificaciones(Matematicas[1], Espanol[1], DiseniodeProgramas[1]);
+    Aprobo_Reprobo(Matematicas[1], Espanol[1], DiseniodeProgramas[1]);
     std::cout << std::endl;
     Saludar(alumnos[2]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+    Calificaciones(Matematicas[2], Espanol[2], DiseniodeProgramas[2]);
+    Aprobo_Reprobo(Matematicas[2], Espanol[2], DiseniodeProgramas[2]);
     std::cout << std::endl;
     Saludar(alumnos[3]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+    Calificaciones(Matematicas[3], Espanol[3], DiseniodeProgramas[3]);
+    Aprobo_Reprobo(Matematicas[3], Espanol[3], DiseniodeProgramas[3]);
     std::cout << std::endl;
     Saludar(alumnos[4]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
+    Calificaciones(Matematicas[4], Espanol[4], DiseniodeProgramas[4]);
+    Aprobo_Reprobo(Matematicas[4], Espanol[4], DiseniodeProgramas[4]);
     std::cout << std::endl;
     Saludar(alumnos[5]);
-    Calificaciones(Matematicas, Espanol, DiseniodeProgramas);
-    Aprobo_Reprobo(Matematicas, Espanol, DiseniodeProgramas);
-
-    capturaAlumnos();
+    Calificaciones(Matematicas[5], Espanol[5], DiseniodeProgramas[5]);
+    Aprobo_Reprobo(Matematicas[5], Espanol[5], DiseniodeProgramas[5]);
+    
     mostrarMenu();
+    eligeOpcion( alumnos, Matematicas, Espanol, DiseniodeProgramas);
 
     return 0;
 }

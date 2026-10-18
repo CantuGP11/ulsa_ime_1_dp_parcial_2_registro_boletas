@@ -1,3 +1,6 @@
+#ifndef REPORTEAPROVADOS_H
+#define REPORTEAPROVADOS_H
+
 #include <iostream>
 
 void Aprobo_Reprobo(double Matematicas,  double Espanol, double Disenio)
@@ -27,3 +30,4 @@ void Aprobo_Reprobo(double Matematicas,  double Espanol, double Disenio)
         std::cout << "Reprobo Disenio de Programas" << std::endl;
     }
 }
+#endif

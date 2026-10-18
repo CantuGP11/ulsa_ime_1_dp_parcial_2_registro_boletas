@@ -6,6 +6,13 @@
 
 #include <string>
 
-void capturaAlumnos(std::string alumnos[], int MAX_ALUMNOS);
+void capturaAlumnos(std::string alumnos[], int MAX_ALUMNOS)
+{
+    for (int i = 0; i < MAX_ALUMNOS; i++)
+    {
+        std::cout << "Nombre del estudiante " << i + 1 << ": ";
+        std::cin >> alumnos[i];
+    }
+}
 
-#endif // termina esta condicion #ifndef ESTUDIANTES_H
+ #endif // termina esta condicion #ifndef ESTUDIANTES_H    
