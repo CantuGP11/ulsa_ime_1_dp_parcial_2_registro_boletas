@@ -22,11 +22,11 @@ void eligeOpcion(std::string alumnos[],
     double Espanol[],
     double DiseniodeProgramas[]) {
     while (true){
-      
+    
         int opcion = leerEntero("Selecciona una opcion:");
     if(opcion == 6)
         break;
-       
+        
         switch(opcion){
             case 1:
         {
