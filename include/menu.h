@@ -1,42 +1,87 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-
+#include "estudiantes.h"
 #include "utilerias.h"
 #include "registro.h"
+#include "ReporteAprovados.h"
+#include "parametros.h"
 
-void capturaAlumnos() {
-    std::cout << "aqui va la captura de alumnos...";
-}
-void mostrarMenu() {
+void mostrarMenu()
+     {
     std::cout << "1.-Mostrar Lista\n";
-    std::cout << "2.-Estadísticas por Materia\n";
+    std::cout << "2.-Estadisticas por Materia\n";
     std::cout << "3.-Aprobados y Reprobados\n";
     std::cout << "4.-Boleta Individual\n";
     std::cout << "5.-Materias Reprobadas por Alumno\n";
     std::cout << "6.-Salir\n";
 }
 
-void eligeOpcion() {
+void eligeOpcion(std::string alumnos[],
+    double Matematicas[],
+    double Espanol[],
+    double DiseniodeProgramas[]) {
     while (true){
-        mostrarMenu();
-        int opcion = leerEntero("Selecciona una operacion");
-
+    
+        int opcion = leerEntero("Selecciona una opcion:");
+    if(opcion == 6)
+        break;
+        
         switch(opcion){
             case 1:
-             std::cout << "Estudiante 1:" << estudiante1 << std::endl;
-              std::cout << "Estudiante 2:" << estudiante2 << std::endl;
-               std::cout << "Estudiante 3:" << estudiante3 << std::endl;
-                std::cout << "Estudiante 4:" << estudiante4 << std::endl;
-                 std::cout << "Estudiante 5:" << estudiante5 << std::endl;
-                  std::cout << "Estudiante 6:" << estudiante6 << std::endl;
+        {
+       std::cout << "\nLISTA DE ALUMNOS\n";
+       for (int i = 0; i < MAX_ALUMNOS; i++) {
+       std::cout << alumnos[i] << std::endl;
+        }
+    }
             break;
-            case 7:
+            case 2:
+             {}
+
+            break;
+            case 3:
+            {}
+            break;
+            case 4:
+        {
+        for (int i = 0; i < MAX_ALUMNOS; i++)
+        {
+        std::cout << "\nAlumno: " << alumnos[i] << std::endl;
+        std::cout << "Matematicas: "
+         << Matematicas[i] << std::endl;
+        std::cout << "Espanol: "
+        << Espanol[i] << std::endl;
+        std::cout << "Disenio de Programas: "
+        << DiseniodeProgramas[i] << std::endl;
+        }
+            break;
+            case 5:
+            {
+            for (int i = 0; i < MAX_ALUMNOS; i++)
+    {       
+            std::cout <<"\nAlumno:" << alumnos[i] << std::endl;  
+           
+        Aprobo_Reprobo(
+            Matematicas[i],
+            Espanol[i],
+            DiseniodeProgramas[i]
+        ); 
+
+        std::cout << std::endl;
+    }
+          }  
+            break;
+            case 6:
+          { 
+             std::cout << "\nEchale mas ganas \n";
+        
+          }
             break;
             default:
                     std::cout << "Opcion invalida\n";
+}
  
         }
     }
 }
-
