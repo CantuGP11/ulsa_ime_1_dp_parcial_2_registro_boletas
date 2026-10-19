@@ -4,7 +4,7 @@
 #include <string>
 #include "utilerias.h"
 #include "promedios.h"
-
+#include "estudiantes.h"
 #include "menu.h"
 #include "ReporteAprovados.h"
 
@@ -48,27 +48,27 @@ int main()
         
     Saludar(alumnos[0]);
     Calificaciones(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
-    Aprobo_Reprobo(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
+  
     std::cout << std::endl;
     Saludar(alumnos[1]);
     Calificaciones(Matematicas[1], Espanol[1], DiseniodeProgramas[1]);
-    Aprobo_Reprobo(Matematicas[1], Espanol[1], DiseniodeProgramas[1]);
+    
     std::cout << std::endl;
     Saludar(alumnos[2]);
     Calificaciones(Matematicas[2], Espanol[2], DiseniodeProgramas[2]);
-    Aprobo_Reprobo(Matematicas[2], Espanol[2], DiseniodeProgramas[2]);
+    
     std::cout << std::endl;
     Saludar(alumnos[3]);
     Calificaciones(Matematicas[3], Espanol[3], DiseniodeProgramas[3]);
-    Aprobo_Reprobo(Matematicas[3], Espanol[3], DiseniodeProgramas[3]);
+    
     std::cout << std::endl;
     Saludar(alumnos[4]);
     Calificaciones(Matematicas[4], Espanol[4], DiseniodeProgramas[4]);
-    Aprobo_Reprobo(Matematicas[4], Espanol[4], DiseniodeProgramas[4]);
+    
     std::cout << std::endl;
     Saludar(alumnos[5]);
     Calificaciones(Matematicas[5], Espanol[5], DiseniodeProgramas[5]);
-    Aprobo_Reprobo(Matematicas[5], Espanol[5], DiseniodeProgramas[5]);
+    
     
     mostrarMenu();
     eligeOpcion( alumnos, Matematicas, Espanol, DiseniodeProgramas);

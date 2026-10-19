@@ -18,9 +18,7 @@ void mostrarMenu()
 }
 
 void eligeOpcion(std::string alumnos[],
-    double Matematicas[],
-    double Espanol[],
-    double DiseniodeProgramas[]) {
+double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
     while (true){
     
         int opcion = leerEntero("Selecciona una opcion:");
@@ -41,7 +39,13 @@ void eligeOpcion(std::string alumnos[],
 
             break;
             case 3:
-            {}
+            {
+              for (int i = 0; i < MAX_ALUMNOS; i++)
+   {
+        std::cout << "Alumno: " << alumnos[i] << std::endl;
+    Aprobo_Reprobo( Matematicas[i], Espanol[i], DiseniodeProgramas[i] );
+      }
+            }
             break;
             case 4:
         {
