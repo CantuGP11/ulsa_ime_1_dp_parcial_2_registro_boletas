@@ -28,7 +28,10 @@ void eligeOpcion() {
             capturaAlumnos();
             break;
             case 2:
-            std::cout
+            mostrarLista(nombres, espanol, matematicas, disenoProgramas, total);
+            break
+            case 3:
+            
             case 7:
             break;
             default:
