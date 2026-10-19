@@ -45,7 +45,7 @@ int main()
     Calificaciones( Matematicas[i], Espanol[i], DiseniodeProgramas[i]  );
     
     }
-
+        
     Saludar(alumnos[0]);
     Calificaciones(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
     Aprobo_Reprobo(Matematicas[0], Espanol[0], DiseniodeProgramas[0]);
