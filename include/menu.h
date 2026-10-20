@@ -5,13 +5,14 @@
 #include "utilerias.h"
 #include "registro.h"
 #include "ReporteAprovados.h"
-#include "parametros.h"
+#include "AprobadoGeneral.h"
+
 
 void mostrarMenu()
      {
     std::cout << "1.-Mostrar Lista\n";
     std::cout << "2.-Estadisticas por Materia\n";
-    std::cout << "3.-Aprobados y Reprobados\n";
+    std::cout << "3.-Aprobados y Reprobados generales\n";
     std::cout << "4.-Boleta Individual\n";
     std::cout << "5.-Materias Reprobadas por Alumno\n";
     std::cout << "6.-Salir\n";
@@ -43,7 +44,7 @@ double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
               for (int i = 0; i < MAX_ALUMNOS; i++)
    {
         std::cout << "Alumno: " << alumnos[i] << std::endl;
-    Aprobo_Reprobo( Matematicas[i], Espanol[i], DiseniodeProgramas[i] );
+    AprobadoGeneral( Matematicas[i], Espanol[i], DiseniodeProgramas[i] );
       }
             }
             break;
