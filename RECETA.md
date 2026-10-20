@@ -1,17 +1,18 @@
 # Receta: Boleta de Calificaciones
 
 ```text
-1. Mostrar "Bienvenido al Simulador de Registro de Calificaciones"
-2. Pedir el nombre del primer estudiante y guardarlo en estudiante1
-3. Pedir el nombre del segundo estudiante y guardarlo en estudiante2
-4. Pedir el nombre del tercer estudiante y guardarlo en estudiante3
-5. Pedir el nombre del cuarto estudiante y guardarlo en estudiante4
-6. Pedir el nombre del quinto estudiante y guardarlo en estudiante5
-7. Pedir el nombre del sexto estudiante y guardarlo en estudiante6
-8. Mostrar "Hola estudiante," y el nombre del estudiante
-9. Pedir la calificacion de Matematicas y guardarla en Matematicas
-10. Pedir la calificacion de Español y guardarla en Espanol
-11. Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
+1. Capturar
+Mostrar "Bienvenido al Simulador de Registro de Calificaciones"
+Pedir el nombre del primer estudiante y guardarlo en estudiante1
+Pedir el nombre del segundo estudiante y guardarlo en estudiante2
+Pedir el nombre del tercer estudiante y guardarlo en estudiante3
+Pedir el nombre del cuarto estudiante y guardarlo en estudiante4
+Pedir el nombre del quinto estudiante y guardarlo en estudiante5
+Pedir el nombre del sexto estudiante y guardarlo en estudiante6
+Mostrar "Hola estudiante," y el nombre del estudiante
+Pedir la calificacion de Matematicas y guardarla en Matematicas
+Pedir la calificacion de Español y guardarla en Espanol
+Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
 
 12.Promedios
  INICIAR la función y recibir los nombres y las calificaciones de los alumnos.
