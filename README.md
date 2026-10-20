@@ -6,7 +6,7 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-| 1 | [ 26082] | [Marian Reynoso] | [marianreynoso-boop] | Aprobado  y Reprobado |
+| 1 | [26082] | [Marian Reynoso] | [marianreynoso-boop] | Aprobado  y Reprobado |
 | 2 | [26084] | [Enrique Talamas] | [EnriquTalamas] | [Boleta Individual] |
 | 3 | [26083] | [Luis Enrique Ruvalcaba ] | [LuisRuvalcaba18] | [Estadisticas por Materia] |
 | 4 | [26160] | [Luis Cortes] | [luiscortesg08] | [Captura] |
