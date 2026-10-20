@@ -1,8 +1,20 @@
+#ifndef PROMEDIOS_H
+#define PROMEDIOS_H
+#include <string>
+#include <iostream>
 #include "utilerias.h"
 #include "estudiantes.h"
-void imprimirPromedio(string n[], decimal m[], decimal esp[], decimal dp[], int tam){
-    for (int i = 0; i< MAX_ALUMNOS; i++){
-        decimal promedio=(m[i]+ esp[i]+ dp[i])/3;
-        std::cout <<",promedio de matematicas:"<< m[i]<<",promedio de español:"<<esp[i]<<",promedio de diseño de programas:"<<dp[i]<<",promedio:"<<promedio;
+
+
+void imprimirPromedio( std::string alumnos[],double Matematicas[], double Espanol[], double DiseniodeProgramas[], int MAX_ALUMNOS) {
+   { 
+    for (int i = 0; i< MAX_ALUMNOS; i++)
+    {
+        double promedio = ( Matematicas[i] + Espanol[i] + DiseniodeProgramas[i])/3;
+
+          std::cout << alumnos[i] <<" Promedio: " << promedio << std::endl;
+                  
+    }
     }//for
 }//funcion
+#endif
