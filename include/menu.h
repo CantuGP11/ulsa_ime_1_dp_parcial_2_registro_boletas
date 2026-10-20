@@ -6,6 +6,7 @@
 #include "registro.h"
 #include "ReporteAprovados.h"
 #include "AprobadoGeneral.h"
+#include "promedios.h"
 
 
 void mostrarMenu()
@@ -38,11 +39,10 @@ double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
             case 2:
              {
                 std::cout << "\nPromedios de los alumnos\n";
-       for (int i = 0; i < MAX_ALUMNOS; i++) {
-        std::cout << "Alumno: " << alumnos[i] << std::endl;
-     imprimirPromedio(string n[], decimal m[], decimal esp[], decimal dp[], int tam);
+imprimirPromedio(alumnos, Matematicas, Espanol,DiseniodeProgramas, MAX_ALUMNOS);
+
        }
-          } 
+          
     break;
             case 3:
             {
