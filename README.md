@@ -54,11 +54,11 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [Lista de alumnos] | [Se muestran los seis nombres registrados.] |
+| 2 | [Estadisicas de las 3 materias] | [Espanol: 7.65; Matematicas: 8.60; Disenio de Programas: 8.00.] |
+| 3 | [Calificacion minima aprobatoria de 7.0] | [Espanol: 4 aprobados y 2 reprobados, Matematicas: 6 aprobados y 0 reprobados, Disenio de Programas: 6 aprobados y 0 reprobados.] |
+| 4 | [Boletas de los 6 alumnos] | [Se muestran las calificaciones de cada alumno y, si esta implementado, su promedio y estado academico.] |
+| 5 | [Materias reprobadas por alumno] | [ Enrique Ruvalcaba: 1, Maximiliano Munos: 1, los demas alumnos: 0.] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
