@@ -36,9 +36,14 @@ double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
     }
             break;
             case 2:
-             {}
-
-            break;
+             {
+                std::cout << "\nPromedios de los alumnos\n";
+       for (int i = 0; i < MAX_ALUMNOS; i++) {
+        std::cout << "Alumno: " << alumnos[i] << std::endl;
+     imprimirPromedio(string n[], decimal m[], decimal esp[], decimal dp[], int tam);
+       }
+          } 
+    break;
             case 3:
             {
               for (int i = 0; i < MAX_ALUMNOS; i++)
