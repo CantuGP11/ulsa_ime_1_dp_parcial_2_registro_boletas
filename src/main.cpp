@@ -12,7 +12,7 @@
 
 #include "utilerias.h"
 #include "registro.h"
-
+  
 // TODO: incluyan aqui el archivo .h de cada bloque individual.
 
 int main() {
