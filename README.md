@@ -212,8 +212,8 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | --- | --- | --- |
 |Marian| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
 | Luis | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
-| Luis Enrique | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
-| Enrique| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
+| Luis Enrique | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [si un alumno tiene promedio de 10 el programa le de un reconocimiento] |
+| Enrique| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Que pida matriculas para que sea mas especifico y sea mas facil identificar al sujeto sin  confusiones o similitudes por los nombres.] |
 | Gilberto | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [mostrar cuantas materias reprobo cada alumno y cuales fueron, en lugar de solamente mostrar su nombre y llamar a la funcion Aprobo_Reprobo] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
