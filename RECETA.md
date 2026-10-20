@@ -14,7 +14,7 @@ Pedir la calificacion de Matematicas y guardarla en Matematicas
 Pedir la calificacion de Español y guardarla en Espanol
 Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
 
-12.Promedios
+2.Promedios
  INICIAR la función y recibir los nombres y las calificaciones de los alumnos.
  INICIALIZAR el contador i en 0.
  VERIFICAR que i sea menor que MAX_ALUMNOS.
@@ -23,7 +23,7 @@ Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
  INCREMENTAR el contador y REPETIR hasta terminar con todos los alumnos.
  FINALIZAR la función.
 
-13.APROBADO
+3.APROBADO
 IF Matematicas >=7.0 y Espanol >=7.0 y DiseniodeProgramas >=7.0 
 ENTONCES Mostrar "APROBADO GENERAL"
 ELSE Mostrar "REPROBADO GENERAL"
