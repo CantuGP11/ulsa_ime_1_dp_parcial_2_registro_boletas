@@ -223,4 +223,4 @@ en el cual da la calificacion al estilo de un videojuego mediante rangos, puntos
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+Sin cambios
