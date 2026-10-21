@@ -43,27 +43,27 @@ g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
 
 Escriban las reglas que su programa sigue y que el cálculo a mano necesita. Por ejemplo: qué pasa cuando hay un empate, cómo se busca un nombre, con cuántos decimales se imprime.
 
-[El programa permite registrar un máximo de seis alumnos.
+[El programa permite registrar un maximo de seis alumnos.
 
-Cada alumno tiene un nombre y tres calificaciones: Español, Matemáticas y Diseño de Programas.
+Cada alumno tiene un nombre y tres calificaciones: Espanol, Matematicas y Disenio de Programas.
 
 Las calificaciones deben estar entre 0 y 10 y pueden incluir decimales.
 
-Una calificación de 7.0 o más se considera aprobatoria; una menor a 7.0 es reprobatoria.
+Una calificacion de 7.0 o ms se considera aprobatoria; una menor a 7.0 es reprobatoria.
 
 El promedio individual se calcula sumando las tres calificaciones y dividiendo el resultado entre tres.
 
-Un alumno se considera aprobado únicamente si aprueba las tres materias.
+Un alumno se considera aprobado unicamente si aprueba las tres materias.
 
-El nombre de cada alumno no puede quedar vacío.
+El nombre de cada alumno no puede quedar vacio.
 
-Si se intenta utilizar un reporte cuando no hay alumnos registrados, el programa debe mostrar un aviso y regresar al menú.
+Si se intenta utilizar un reporte cuando no hay alumnos registrados, el programa debe mostrar un aviso y regresar al menu.
 
-Si se intenta registrar un alumno cuando la lista está llena, el programa debe rechazar el registro.
+Si se intenta registrar un alumno cuando la lista esta llena, el programa debe rechazar el registro.
 
-Si se introduce una opción que no existe en el menú, se muestra el mensaje «Opción inválida».
+Si se introduce una opcion que no existe en el menu, se muestra el mensaje Opcion invalida.
 
-El menú se repite hasta que el usuario selecciona la opción para salir.
+El menu se repite hasta que el usuario selecciona la opcion para salir.
 
 Los reportes deben utilizar los nombres y las calificaciones correspondientes a cada alumno.]
 
@@ -73,10 +73,10 @@ Los 6 alumnos que capturan en el escenario obligatorio.
 
 | # | Nombre | Español | Matemáticas | Diseño de Programas |
 | --- | --- | --- | --- | --- |
-| 1 | [Gilberto Cantú] | [100] | [100] | [80] |
+| 1 | [Gilberto Cantu] | [100] | [100] | [80] |
 | 2 | [Enrique Talamas] | [74] | [90] | [80] |
 | 3 | [Enrique Ruvalcaba] | [60] | [75] | [80] |
-| 4 | [Maximiliano Muños] | [50] | [70] | [80] |
+| 4 | [Maximiliano Munos] | [50] | [70] | [80] |
 | 5 | [Oliver Lopez] | [90] | [88] | [80] |
 | 6 | [Matias Borrego] | [85] | [93] | [80] |
 
@@ -105,11 +105,11 @@ Receta en pseudocódigo del programa principal: el menú y cómo se conecta con 
 ```
 [1. INICIO
 
-2. Mostrar el menú principal
+2. Mostrar el menu principal
 
 Mostrar "1. Mostrar lista de alumnos".
 
-Mostrar "2. Estadísticas por materia".
+Mostrar "2. Estadisticas por materia".
 
 Mostrar "3. Aprobados y reprobados generales".
 
@@ -119,17 +119,17 @@ Mostrar "5. Materias reprobadas por alumno".
 
 Mostrar "6. Salir".
 
-3. Repetir el menú
+3. Repetir el menu
 
-MIENTRAS la opción sea diferente de 6, hacer lo siguiente:
+MIENTRAS la opcion sea diferente de 6, hacer lo siguiente:
 
-Leer la opción seleccionada.
+Leer la opcion seleccionada.
 
-Evaluar la opción con la estructura SEGÚN.
+Evaluar la opcion con la estructura SEGUN.
 
-4. Opción 1: Mostrar lista de alumnos
+4. Opcion 1: Mostrar lista de alumnos
 
-Mostrar el título "LISTA DE ALUMNOS".
+Mostrar el titulo "LISTA DE ALUMNOS".
 
 PARA cada alumno desde 0 hasta MAX_ALUMNOS - 1:
 
@@ -137,69 +137,69 @@ Mostrar el nombre del alumno.
 
 FIN PARA.
 
-5. Opción 2: Estadísticas por materia
+5. Opcion 2: Estadisticas por materia
 
-Mostrar el título "Promedios de los alumnos".
+Mostrar el titulo "Promedios de los alumnos".
 
 PARA cada alumno desde 0 hasta MAX_ALUMNOS - 1:
 
 Mostrar el nombre del alumno.
 
-Calcular y mostrar sus promedios de Matemáticas, Español y Diseño de Programas mediante la función correspondiente.
+Calcular y mostrar sus promedios de Matematicas, Espaniol y Diseno de Programas mediante la funcion correspondiente.
 
 FIN PARA.
 
-6. Opción 3: Aprobados y reprobados generales
+6. Opcion 3: Aprobados y reprobados generales
 
 PARA cada alumno desde 0 hasta MAX_ALUMNOS - 1:
 
 Mostrar el nombre del alumno.
 
-Evaluar sus calificaciones de Matemáticas, Español y Diseño de Programas mediante la función AprobadoGeneral.
+Evaluar sus calificaciones de Matematicas, Espanol y Disenio de Programas mediante la funcion AprobadoGeneral.
 
 Mostrar el resultado de aprobado o reprobado.
 
 FIN PARA.
 
-7. Opción 4: Boleta individual
+7. Opcion 4: Boleta individual
 
 PARA cada alumno desde 0 hasta MAX_ALUMNOS - 1:
 
 Mostrar el nombre del alumno.
 
-Mostrar su calificación de Matemáticas.
+Mostrar su calificacion de Matematicas.
 
-Mostrar su calificación de Español.
+Mostrar su calificacion de Espanol.
 
-Mostrar su calificación de Diseño de Programas.
+Mostrar su calificacion de Disenio de Programas.
 
 FIN PARA.
 
-8. Opción 5: Materias reprobadas por alumno
+8. Opcion 5: Materias reprobadas por alumno
 
 PARA cada alumno desde 0 hasta MAX_ALUMNOS - 1:
 
 Mostrar el nombre del alumno.
 
-Evaluar sus calificaciones con la función Aprobo_Reprobo.
+Evaluar sus calificaciones con la funcion Aprobo_Reprobo.
 
-Mostrar las materias que reprobó.
+Mostrar las materias que reprobo.
 
 FIN PARA.
 
-9. Opción 6: Salir
+9. Opcion 6: Salir
 
-Terminar el ciclo del menú.
+Terminar el ciclo del menu.
 
 Mostrar un mensaje de despedida.
 
-10. Opción no válida
+10. Opcion no vaida
 
-Si la opción no corresponde a ninguna de las anteriores:
+Si la opcion no corresponde a ninguna de las anteriores:
 
-Mostrar "Opción inválida".
+Mostrar "Opcion invalida".
 
-Regresar al menú principal.
+Regresar al menu principal.
 
 11. FIN]
 ```
@@ -210,8 +210,9 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Bloque | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-|Marian| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
-| Luis | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Inserta aquí tu respuesta] |
+|Marian| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Mi propuesta es un sistema de niveles y recompensas 
+en el cual da la calificacion al estilo de un videojuego mediante rangos, puntos de experiencia (XP) y el estado de desbloqueo del siguiente modulo. Con el objetivo de que los alumnos no vean la reprobacion como un fracaso definitivo] |
+| Luis | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Mi propuesta de mejora es que se puedan separar las calificaciones de cada materia por parciales, registrar parcial uno dos y tres, y a partir de ahi calcular el promedio final por materia] |
 | Luis Enrique | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [si un alumno tiene promedio de 10 el programa le de un reconocimiento] |
 | Enrique| [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [Que pida matriculas para que sea mas especifico y sea mas facil identificar al sujeto sin  confusiones o similitudes por los nombres.] |
 | Gilberto | [https://github.com/CantuGP11/ulsa_ime_1_dp_parcial_2_registro_boletas] | [mostrar cuantas materias reprobo cada alumno y cuales fueron, en lugar de solamente mostrar su nombre y llamar a la funcion Aprobo_Reprobo] |
@@ -222,4 +223,4 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+Sin cambios

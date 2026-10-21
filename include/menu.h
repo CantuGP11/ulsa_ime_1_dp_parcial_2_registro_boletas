@@ -38,7 +38,7 @@ double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
             break;
             case 2:
              {
-                std::cout << "\nPromedios de los alumnos\n";
+                std::cout << "\nPromedios de los alumnos\n"  << std::endl;
 imprimirPromedio(alumnos, Matematicas, Espanol,DiseniodeProgramas, MAX_ALUMNOS);
 
        }
@@ -48,7 +48,7 @@ imprimirPromedio(alumnos, Matematicas, Espanol,DiseniodeProgramas, MAX_ALUMNOS);
             {
               for (int i = 0; i < MAX_ALUMNOS; i++)
    {
-        std::cout << "Alumno: " << alumnos[i] << std::endl;
+        std::cout << "-Alumno: " << alumnos[i] << std::endl;
     AprobadoGeneral( Matematicas[i], Espanol[i], DiseniodeProgramas[i] );
       }
             }

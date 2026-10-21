@@ -16,7 +16,7 @@ void Saludar(std::string nombre)
 void Calificaciones(double &Matematicas, double &Espanol, double &DiseniodeProgramas)
 {
     std::cout << "Calificacion de Matematicas" << std::endl;
-    Matematicas = leerDecimal("Ingresa la calificacion de Matematicas: ");
+    Matematicas = leerDecimal("Ingresa la calificacion de Matematicas: ");  
     std::cout << "Calificacion de Espanol" << std::endl;
     Espanol = leerDecimal("Ingresa la calificacion de Espanol: ");
     std::cout << "Calificacion de Disenio de Programas" << std::endl;
