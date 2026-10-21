@@ -49,4 +49,11 @@ ELSE Mostrar "REPROBADO GENERAL"
        13.Muestra su calificación de Español.
        14.Muestra su calificación de Diseño de Programas.
        15. Repite el paso con todos los alumnos registrados, imprimiendo sus 3 calificaciones.
->>>>>>> Stashed changes
+5.Materias Reprobadas
+  PARA cada alumno HACER
+        MOSTRAR nombre del alumno
+        REVISAR sus calificaciones
+        MOSTRAR sus materias reprobadas
+    FIN PARA
+
+FIN
