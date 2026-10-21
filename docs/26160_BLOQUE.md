@@ -62,7 +62,7 @@ Tu receta en pseudocódigo, escrita antes de programar.
     Guardar el nombre en la posición i del arreglo alumnos.
     Aumentar i en uno.
 5. Terminar el ciclo cuando se hayan registrado los seis nombres.
-FIN
+FIN]
 ```
 
 **¿Probaste tu receta a mano con los datos del escenario? ¿Qué corregiste?**
