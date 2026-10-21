@@ -23,6 +23,8 @@ Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
  INCREMENTAR el contador y REPETIR hasta terminar con todos los alumnos.
  FINALIZAR la función.
 
+
+```text
 3.APROBADO
 IF Matematicas >=7.0 y Espanol >=7.0 y DiseniodeProgramas >=7.0 
 ENTONCES Mostrar "APROBADO GENERAL"
@@ -34,7 +36,7 @@ ELSE Mostrar "REPROBADO GENERAL"
  
 4. Receta de las calificaciones 
 
-       1. Se toma el nombre del primer estudiante.
+         1. Se toma el nombre del primer estudiante.
         2. Se le pregunta su calificación de Matemáticas.
        3. La calificación se guarda en la primera posición del arreglo de Matemáticas.
        4. Se le pregunta su calificación de Español.
@@ -43,12 +45,12 @@ ELSE Mostrar "REPROBADO GENERAL"
        7. La calificación se guarda en la primera posición del arreglo de Diseño de Programas.                       
        8. Se repite este proceso hasta llegar al máximo de estudiantes que es 6 y llenando los arreglos correspondientes.
        9. Cuando todas las calificaciones están guardadas, el usuario selecciona la opción 4 en el menú.
-      10. El programa busca al primer alumno.
-      11.Muestra su nombre.
-      12.Muestra su calificación de Matemáticas.
-       13.Muestra su calificación de Español.
-       14.Muestra su calificación de Diseño de Programas.
-       15. Repite el paso con todos los alumnos registrados, imprimiendo sus 3 calificaciones.
+      10.Muestra su nombre.
+      13.Muestra su calificación de Matemáticas.
+       14.Muestra su calificación de Español.
+       15.Muestra su calificación de Diseño de Programas.
+       16. Repite el paso con todos los alumnos registrados, imprimiendo sus 3 calificaciones.
+       
 5.Materias Reprobadas
   PARA cada alumno HACER
         MOSTRAR nombre del alumno
