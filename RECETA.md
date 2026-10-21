@@ -32,7 +32,7 @@ ELSE Mostrar "REPROBADO GENERAL"
 =======
  
  
- Receta de las calificaciones 
+4. Receta de las calificaciones 
 
        1. Se toma el nombre del primer estudiante.
         2. Se le pregunta su calificación de Matemáticas.
