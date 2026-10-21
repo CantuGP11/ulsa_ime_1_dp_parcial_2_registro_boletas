@@ -96,7 +96,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+[no cambiamos nada]
 
 ## 7. Receta del menú
 
@@ -223,4 +223,4 @@ en el cual da la calificacion al estilo de un videojuego mediante rangos, puntos
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+[Sin cambios]

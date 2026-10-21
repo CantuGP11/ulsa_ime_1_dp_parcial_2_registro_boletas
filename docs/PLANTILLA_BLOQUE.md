@@ -58,12 +58,12 @@ Explica cada decisión y por qué la tomaste.
 Tu receta en pseudocódigo, escrita antes de programar.
 
 ```
-[Inserta aquí tu respuesta]
+[]
 ```
 
 **¿Probaste tu receta a mano con los datos del escenario? ¿Qué corregiste?**
 
-[Inserta aquí tu respuesta]
+[]
 
 ## 6. Bitácora de dudas y errores
 
