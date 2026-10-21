@@ -23,6 +23,8 @@ Pedir la calificacion de Diseño de programas y guardarla en DiseniodeProgramas
  INCREMENTAR el contador y REPETIR hasta terminar con todos los alumnos.
  FINALIZAR la función.
 
+
+```text
 3.APROBADO
 IF Matematicas >=7.0 y Espanol >=7.0 y DiseniodeProgramas >=7.0 
 ENTONCES Mostrar "APROBADO GENERAL"
