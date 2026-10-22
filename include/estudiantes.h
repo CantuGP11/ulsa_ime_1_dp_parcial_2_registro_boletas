@@ -5,6 +5,7 @@
 #define ESTUDIANTES_H // esta marca que ya entro.
 
 #include <string>
+const int MAX_ALUMNOS = 6;
 
 void capturaAlumnos(std::string alumnos[], int MAX_ALUMNOS)
 {

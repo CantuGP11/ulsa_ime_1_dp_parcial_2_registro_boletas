@@ -22,7 +22,7 @@
 
 // Cantidad maxima de alumnos que guarda el programa.
 // Es el tamano de los cuatro arreglos.
-const int MAX_ALUMNOS = 6;
+
 
 // Rango valido de una calificacion.
 const double CALIFICACION_MINIMA = 0.0;

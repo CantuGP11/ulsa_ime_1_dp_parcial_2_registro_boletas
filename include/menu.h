@@ -3,7 +3,6 @@
 #include <string>
 #include "estudiantes.h"
 #include "utilerias.h"
-#include "registro.h"
 #include "ReporteAprovados.h"
 #include "AprobadoGeneral.h"
 #include "promedios.h"
@@ -24,8 +23,11 @@ double Matematicas[],double Espanol[], double DiseniodeProgramas[]) {
     while (true){
     
         int opcion = leerEntero("Selecciona una opcion:");
-    if(opcion == 6)
-        break;
+    
+        if(opcion == 6) {
+    std::cout << "Echale mas ganas\n";
+    return;
+}
         
         switch(opcion){
             case 1:
@@ -54,18 +56,16 @@ imprimirPromedio(alumnos, Matematicas, Espanol,DiseniodeProgramas, MAX_ALUMNOS);
             }
             break;
             case 4:
-        {
-        for (int i = 0; i < MAX_ALUMNOS; i++)
-        {
+    {
+    for (int i = 0; i < MAX_ALUMNOS; i++)
+    {
         std::cout << "\nAlumno: " << alumnos[i] << std::endl;
-        std::cout << "Matematicas: "
-         << Matematicas[i] << std::endl;
-        std::cout << "Espanol: "
-        << Espanol[i] << std::endl;
-        std::cout << "Disenio de Programas: "
-        << DiseniodeProgramas[i] << std::endl;
+        std::cout << "Matematicas: " << Matematicas[i] << std::endl;
+        std::cout << "Espanol: " << Espanol[i] << std::endl;
+        std::cout << "Disenio de Programas: " << DiseniodeProgramas[i] << std::endl;
         }
-            break;
+         }
+        break;
             case 5:
             {
             for (int i = 0; i < MAX_ALUMNOS; i++)
@@ -94,4 +94,4 @@ imprimirPromedio(alumnos, Matematicas, Espanol,DiseniodeProgramas, MAX_ALUMNOS);
  
         }
     }
-}
+
