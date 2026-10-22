@@ -49,7 +49,7 @@ bool calificacionValida(double calificacion);
 // Devuelve: el nuevo total de alumnos. Si la lista esta llena,
 //           no guarda nada y devuelve el mismo total que recibio.
 // No imprime nada y no lee del teclado.
-int agregarAlumno(std::string nombres[],
+void agregarAlumno(std::string nombres[],
                   double espanol[],
                   double matematicas[],
                   double disenoProgramas[],
@@ -58,7 +58,7 @@ int agregarAlumno(std::string nombres[],
                   double calificacionEspanol,
                   double calificacionMatematicas,
                   double calificacionDisenoProgramas){
-
+         
 
                 }
 
